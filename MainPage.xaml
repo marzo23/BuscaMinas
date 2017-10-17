@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BuscaMinas2"
+             x:Class="BuscaMinas2.MainPage">
+
+	<Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"
+           x:Name="lbl"/>
+
+    <!--<Grid x:Name = "contenedor">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button Text = "" Grid.Row="0" Grid.Column="0" x:Name = "btn1"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="1" x:Name = "btn2"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="2" x:Name = "btn3"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="3" x:Name = "btn4"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="4" x:Name = "btn5"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="5" x:Name = "btn6"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="6" x:Name = "btn7"/>
+        <Button Text = "" Grid.Row="0" Grid.Column="7" x:Name = "btn8"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="0" x:Name = "btn9"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="1" x:Name = "btn10"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="2" x:Name = "btn11"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="3" x:Name = "btn12"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="4" x:Name = "btn13"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="5" x:Name = "btn14"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="6" x:Name = "btn15"/>
+        <Button Text = "" Grid.Row="1" Grid.Column="7" x:Name = "btn16"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="0" x:Name = "btn17"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="1" x:Name = "btn18"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="2" x:Name = "btn19"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="3" x:Name = "btn20"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="4" x:Name = "btn21"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="5" x:Name = "btn22"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="6" x:Name = "btn23"/>
+        <Button Text = "" Grid.Row="2" Grid.Column="7" x:Name = "btn24"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="0" x:Name = "btn25"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="1" x:Name = "btn26"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="2" x:Name = "btn27"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="3" x:Name = "btn28"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="4" x:Name = "btn29"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="5" x:Name = "btn30"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="6" x:Name = "btn31"/>
+        <Button Text = "" Grid.Row="3" Grid.Column="7" x:Name = "btn32"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="0" x:Name = "btn33"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="1" x:Name = "btn34"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="2" x:Name = "btn35"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="3" x:Name = "btn36"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="4" x:Name = "btn37"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="5" x:Name = "btn38"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="6" x:Name = "btn39"/>
+        <Button Text = "" Grid.Row="4" Grid.Column="7" x:Name = "btn40"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="0" x:Name = "btn41"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="1" x:Name = "btn42"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="2" x:Name = "btn43"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="3" x:Name = "btn44"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="4" x:Name = "btn45"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="5" x:Name = "btn46"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="6" x:Name = "btn47"/>
+        <Button Text = "" Grid.Row="5" Grid.Column="7" x:Name = "btn48"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="0" x:Name = "btn49"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="1" x:Name = "btn50"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="2" x:Name = "btn51"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="3" x:Name = "btn52"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="4" x:Name = "btn53"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="5" x:Name = "btn54"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="6" x:Name = "btn55"/>
+        <Button Text = "" Grid.Row="6" Grid.Column="7" x:Name = "btn56"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="0" x:Name = "btn57"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="1" x:Name = "btn58"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="2" x:Name = "btn59"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="3" x:Name = "btn60"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="4" x:Name = "btn61"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="5" x:Name = "btn62"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="6" x:Name = "btn63"/>
+        <Button Text = "" Grid.Row="7" Grid.Column="7" x:Name = "btn64"/>
+    </Grid>-->
+
+    <Grid x:Name="grid">
+        
+    </Grid>
+
+</ContentPage>
